@@ -1,6 +1,7 @@
 import React from 'react'
 import NavbarComponent from './components/NavbarComponent';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import HeroComponent from './components/HeroComponent';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <div className="container mx-auto px-8">
           <BrowserRouter>
             <NavbarComponent/>
+            <HeroComponent/>
           </BrowserRouter>
         </div>
       </div>
