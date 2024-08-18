@@ -9,32 +9,32 @@ export const ABOUT_TEXT = "I am a passionate and versatile Full-Stack Developer 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
+    year: "01/2024 - Present",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Hoosier Community Network",
+    description: ['Led a team of 4 to create data library, an web app with business insights and data using MongoDb, ExpressJS, AngularJS, NodeJS, enhancing data accessibility for 1,000+ small business owners.', 'Implemented secure authentication with BcryptJS, Firebase, reducing unauthorized access by 50%.', 'Devised efficient bot detection system using TensorflowJS object detection model and CAPTCHA, reducing bot registration by 95%.', 'Orchestrated a pipeline to build and deploy app hosted on EC2 using Jenkins, Ansible, Docker and Kubernetes improving deployment efficiency by 30% and ensuring scalable, reliable application delivery'],
+    technologies: ["Javascript", "Angular.js", "mongoDB", "Node.js", "Firebase", "Tensorflow.js", "EC2", "Jenkins", "Docker", "Kubernetes"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "08/2023 - 12/2023",
+    role: "Software Development Co-op",
+    company: "Schneider Electric",
+    description: ['Co-created a Levelized Cost of Hydrogen Calculator app using Django to compare the economic feasibility of renewable fuel production systems.', 'Engineered a cost modeling algorithm in Python, improving cost estimation accuracy by 20%.', 'Established real-time data acquisition via RESTful APIs for cost adjustments based on fluctuating prices and operational changes.', 'Displayed interactive graphs, showing the distribution of various inputs in the LCOH calculation using JavaScript, D3.js, and Chart.js in the front-end, allowing users to visualize the impact of each variable on the overall cost.'],
+    technologies: ["HTML", "CSS", "Django", "JavaScript", "D3.js", "Chart.js", "MySQL"],
+  },
+  {
+    year: "06/2023 - 08/2023",
+    role: "Machine Learning & Artificial Intelligence Intern",
+    company: "Schneider Electric",
+    description: ['Collaborated with cross-functional teams to analyze 20GB of ore processing system dataset using Agile/Scrum Methodologies , leading to improved ore yield.', 'Built an ETL pipeline to transfer Microsoft SQL Server data to cloud using Azure Data Factory, Azure Databricks & Azure Synapse Analytics, which cut manual effort by 70% & boosted data processing efficiency by 60%.', 'Applied Principal Component Analysis (PCA) to extract interrelations among variables & significant components improving the accuracy of the subsequent prediction model by 10%.', 'Created a predictive model to understand the machine behaviour at different inputs using XGBoost Regression Machine Learning Algorithm, achieving 93% accuracy.'],
+    technologies: ["Python", "Microsoft SQL Server", "Microsoft SQL Server", "Azure Databricks", "Azure Synapse Analytics", "XGBoost Regression"],
+  },
+  {
+    year: "12/2021 - 08/2022",
+    role: "Web Developer",
+    company: "Sahacharya Digital Solutions PVT. LTD",
+    description: ['Engineered 15 REST APIs for a finances management app using ExpressJS, NodeJS, ES6, ReactJS, aiding 1000+ users in tracking income and expenditure.', 'Optimized data storage and querying for 10,000+ records using MySQL and PostgreSQL, improving query speed by 20%.', 'Researched and transitioned application architecture for downloading PDFs of the records from PhantomJS to PuppeteerJS, increasing download speeds by 60%.', 'Established a CI/CD pipeline to automate the release of testing and production builds for Finacial apps using Bitbucket, & AWS CodeDeploy, reducing build times by 2 hours and ensuring consistent, reliable delivery'],
+    technologies: ["ES6", "PostgreSQL", "BitBucket", "AWS CodeDeploy"],
   },
 ];
 

@@ -4,6 +4,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import HeroComponent from './components/HeroComponent';
 import About from './components/About';
 import Technologies from './components/Technologies';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <HeroComponent/>
             <About/>
             <Technologies/>
+            <Experience/>
           </BrowserRouter>
         </div>
       
