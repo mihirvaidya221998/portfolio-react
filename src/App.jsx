@@ -5,6 +5,8 @@ import HeroComponent from './components/HeroComponent';
 import About from './components/About';
 import Technologies from './components/Technologies';
 import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
             <About/>
             <Technologies/>
             <Experience/>
+            <Projects/>
+            <Contact/>
           </BrowserRouter>
         </div>
       

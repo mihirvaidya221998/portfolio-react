@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/blog.webp";
+import project2 from "../assets/projects/Review-websites.jpg";
+import project3 from "../assets/projects/hospital-management-system.jpg";
+import project4 from "../assets/projects/criminal-detection.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, Python, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -40,37 +40,41 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Blog Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional technical blog website with features like writing technical blogs, commenting, liking comments, bot detection using ML and user authentication.",
+    technologies: ['TailwindCSS', 'Tensorflow.js', "React", "Node.js", "MongoDB"],
+    githubLink:"https://github.com/mihirvaidya221998/Blog-MERN",
   },
   {
-    title: "Task Management App",
+    title: "Campsite Review App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for reviewing and creating camp sites, with features such as Rating Campsite, listing your campsite, and cookies sessions.",
+    technologies: ["HTML", "BootStrap", "JavaScript", "MongoDB"],
+    githubLink:"https://github.com/mihirvaidya221998/Camp-Review-Website",
   },
   {
-    title: "Portfolio Website",
+    title: "Hospital Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An application for managing Hospital and Insuarance, with features such as different account priviledges, booking appointments, prescribing medications, viewing and purchasing insurance plans, mailing system for confirmation.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    githubLink:"https://github.com/mihirvaidya221998/HealYo",
   },
   {
-    title: "Blogging Platform",
+    title: "Criminal Detection System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A system that detects the identification of a criminal using their BMI.",
+    technologies: ["Matlab", "Flutter", "HTML", "CSS"],
+    githubLink:"https://github.com/mihirvaidya221998/Criminal-Detection",
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "6120 SW 27th St Topeka Kansas",
+  phoneNo: "+18125532142",
+  email: "mihirsv22@gmail.com",
 };

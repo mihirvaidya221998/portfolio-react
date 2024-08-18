@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutImg from '../assets/about.jpg'
+import aboutImg from '../assets/projects/IMG_3356.jpeg'
 import { ABOUT_TEXT } from '../constants';
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
             <div className="flex items-center justify-center">
-                <img className='rounded-2xl' src={aboutImg} alt="" />
+                <img className='rounded-2xl w-64 h-64 lg:w-96 lg:h-96' src={aboutImg} alt="" />
             </div>
         </div>
         <div className='w-full lg:w-1/2'>
