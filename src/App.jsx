@@ -3,6 +3,7 @@ import NavbarComponent from './components/NavbarComponent';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import HeroComponent from './components/HeroComponent';
 import About from './components/About';
+import Technologies from './components/Technologies';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <NavbarComponent/>
             <HeroComponent/>
             <About/>
+            <Technologies/>
           </BrowserRouter>
         </div>
       
