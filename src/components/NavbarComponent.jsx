@@ -11,8 +11,12 @@ const NavbarComponent = () => {
           <span className='text-white text-xl font-semibold'>Mihir Vaidya</span>
         </div>
         <div className='flex items-center gap-4 text-2xl text-white'>
-          <FaLinkedin />
-          <FaGithub />
+          <a href="https://www.linkedin.com/in/mihirvaidya22/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin />
+          </a>
+          <a href="https://github.com/mihirvaidya221998" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
         </div>
       </div>
     </Navbar>
