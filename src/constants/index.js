@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/blog.webp";
 import project2 from "../assets/projects/Review-websites.jpg";
 import project3 from "../assets/projects/hospital-management-system.jpg";
-import project4 from "../assets/projects/criminal-detection.jpg";
+import project4 from "../assets/projects/criminal-detection.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, Python, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -64,12 +64,12 @@ export const PROJECTS = [
     githubLink:"https://github.com/mihirvaidya221998/HealYo",
   },
   {
-    title: "Criminal Detection System",
+    title: "Criminal Detection",
     image: project4,
     description:
-      "A system that detects the identification of a criminal using their BMI.",
-    technologies: ["Matlab", "Flutter", "HTML", "CSS"],
-    githubLink:"https://github.com/mihirvaidya221998/Criminal-Detection",
+      "An application for idemtifying the criminal from CCTV using Computer Vision, with features such as identifying the bmi from the image of the criminal and giving the name of the criminal from the records.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    githubLink:"https://github.com/mihirvaidya221998/HealYo",
   },
 ];
 
