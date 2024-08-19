@@ -1,6 +1,7 @@
 import React from 'react';
 import {HERO_CONTENT} from "../constants/index.js";
 import { delay, motion, transform } from "framer-motion";
+import porfilePic from '../assets/projects/ProfilePic.JPG'
 
 const container = (delay) =>({
   hidden: {x:-100, opacity:0},
@@ -24,7 +25,7 @@ function HeroComponent() {
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>
             <div className="flex justify-center">
-                <motion.img initial={{x:100, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:1, delay:1.2}} src='src/assets/Mihir_Vaidya_Profile.JPG' alt="Mihir Vaidya" />
+                <motion.img initial={{x:100, opacity:0}} animate={{x:0, opacity:1}} transition={{duration:1, delay:1.2}} src={porfilePic} alt="Mihir Vaidya" />
             </div>
         </div>
       </div>
