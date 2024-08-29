@@ -2,7 +2,7 @@ import React from 'react';
 import { HERO_CONTENT } from "../constants/index.js";
 import { motion } from "framer-motion";
 import profilePic from '../assets/projects/ProfilePic.jpg';
-import resume from '../assets/files/Mihir_Vaidya_Resume_SE_08_13_24.pdf';
+import resume from '../assets/files/Mihir_Vaidya_Resume_SE_08_29_24.pdf';
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
