@@ -10,31 +10,31 @@ export const ABOUT_TEXT = "I am a passionate and versatile Full-Stack Developer 
 export const EXPERIENCES = [
   {
     year: "01/2024 - Present",
-    role: "Full Stack Developer",
+    role: "Software Development Engineer",
     company: "Hoosier Community Network",
-    description: ['Maintained a serverless E-Commerce Plugin using Lambda, DynamoDB, TypeScript & NodeJs with 10000+ users.', 'Implemented a secure & scalable payment gateway using Stripe ensuring 15,000+ secure transactions.', 'Launched alert system which notifies when inventory goes below mentioned threshold using DynamoDB, Lambda and SNS, alerting the inventory manager when the stock fall below 200 Units.', 'Improved the front-end performance and feel by using Figma, SCSS, CloudFormation, React Redux, improving accessibility and load times by 40%'],
+    description: ['Maintained a serverless E-Commerce Plugin using Lambda, DynamoDB, TypeScript & NodeJs with 10000+ users', 'Implemented a secure & scalable payment gateway using Stripe ensuring 15,000+ secure transactions', 'Launched alert system which notifies when inventory goes below mentioned threshold using DynamoDB and Lambda, alerting the inventory manager when the stock fall below 200 Units', 'Enhanced User Experience by using Figma, SCSS, CloudFormation, React Redux, making the application responsive and quick to access'],
     technologies: ["AWS Lambda", "DynamoDB", "TypeScript", "NodeJs", "Firebase", "Stripe", "Figma", "SCSS", "AWS CloudFormation", "React Redux"],
   },
   {
     year: "08/2023 - 12/2023",
     role: "Software Development Co-op",
     company: "Schneider Electric R&D Lab",
-    description: ['Created a Levelized Cost of Hydrogen Calculator app using ASP.net & AngularJS to compare the economic feasibility of the new renewable fuel production systems', 'Spearheaded a cost modeling algorithm in C# using MVC principles, improving cost estimation accuracy by 20% and keeping the budget of multi million dollar research project in check', 'Displayed 4 interactive graphs with JavaScript and Chart.js, allowing users to visualize the impact of variables on overall costs', 'Managed project progress using Jira which resulted in a 15% improvement in team productivity and the on-time delivery of the final product'],
-    technologies: ["ASP.net", "AngularJS", "C#", "Jira", "Chart.js", "SQL Server"],
+    description: ['Designed a Levelized Cost application a way to visually and interactivally understand the lifetime cost of running 4 different fuel production plant using JavaScript & ReactJS', 'Spearheaded the cost modeling algorithm in NodeJS using MVC principles, which helped the team to identify the most economical plant to scale up out of the 4 small scale plants', 'Displayed interactive graphs using SQL Server & Chart.js to visualize module distribution in the Levelized Cost', 'Managed project progress using Jira, ensuring timely completion of deliverables and improving team productivity'],
+    technologies: ["NodeJS", "ReactJS", "JavaScript", "ExpressJS", "Jira", "Chart.js", "SQL Server"],
   },
   {
     year: "06/2023 - 08/2023",
-    role: "Machine Learning & Artificial Intelligence Intern",
+    role: "Software Development Intern",
     company: "Schneider Electric",
-    description: ['Contributed to the development of a web-based SCADA system using .NET Core & Angular, working closely with senior developers to implement key features & delivering scrum requirements 3 weeks before the deadline', 'Created responsive UI and integrated RESTful APIs to process real-time data from various sources, improving the experience of 10 industrial operators', 'Supported Azure cloud ETL service integration tasks using data factory, databricks & PowerBi, leading to a 20% increase in data processing accuracy', 'Wrote unit tests and API Tests using xUnit & Postman contributing to a 25% reduction in bugs'],
-    technologies: ["Python", "Microsoft SQL Server", "Microsoft SQL Server", "Azure Databricks", "Azure Synapse Analytics", "SCADA Systems"],
+    description: ['Contributed to the maintaining SaaS based energy and sustainability solution using C# & Angular, delivering scrum requirements 3 weeks before the deadline', 'Created backend services for for a real-time water usage efficiency platform with .Net 5 and SignalR, aiding in tracking of water wastage', 'Migrated on-premise data to Azure infrastructure, using ETL tools Data Factory, Data Lake Gen2 & Synapse Analytics, aiding in automating the analytics of 20GB data', "Performed analytics and and architected ML Model on the big data using DataBricks and PowerBI, improving the client’s ore yield"],
+    technologies: ["C#", "AngularJS", "ASP.net", "Python", "Microsoft SQL Server", "Azure Data Factory", "Azure Data Lake Gen 2", "Azure Databricks", "Azure Synapse Analytics", "PowerBI", "Industrial IoT"],
   },
   {
     year: "12/2021 - 08/2022",
-    role: "Web Developer",
+    role: "Software Developer",
     company: "Sahacharya Digital Solutions PVT. LTD",
-    description: ['Engineered 15 REST APIs for a finances management app using ExpressJS, NodeJS, ES6, ReactJS, aiding 1000+ users in tracking income and expenditure.', 'Optimized data storage and querying for 10,000+ records using MySQL and PostgreSQL, improving query speed by 20%.', 'Researched and transitioned application architecture for downloading PDFs of the records from PhantomJS to PuppeteerJS, increasing download speeds by 60%.', 'Established a CI/CD pipeline to automate the release of testing and production builds for Finacial apps using Bitbucket, & AWS CodeDeploy, reducing build times by 2 hours and ensuring consistent, reliable delivery'],
-    technologies: ["ES6", "PostgreSQL", "BitBucket", "AWS CodeDeploy"],
+    description: ['Engineered REST APIs for a finances management and Community Management apps using NodeJS, EJS, JQuery, AJAX ReactJS, digitizing the lives of 2000+ users', 'Optimized download PDF for 10,000+ records functionality, using MySQL query and PuppeteerJS, improving download speed of large data', 'Automated the monthly maintenance fee invoice alert functionality using Node Cron, improving the efficiency of sending 2000+ community members monthly invoice', 'Established a community complains functionality, using AWS Simple Email Service, digitizing the community issue reporting and reducing the complain handling time to 2 weeks'],
+    technologies: ["EJS", "MySQL", "BitBucket", "Jira", "AWS Simple Email Service", "NodeJS", "ExpressJS", "PuppeteerJS", "NodeCron"],
   },
 ];
 
